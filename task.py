@@ -11,7 +11,7 @@ def ls():
     if work=="":
         print("No pending tasks")
     else:
-        print(f.read())
+        print(work)
     f.close()
 
 def add(argv):
